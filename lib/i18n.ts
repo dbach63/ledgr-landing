@@ -217,7 +217,7 @@ const en: Translations = {
     tagline: "Bookkeeping that works as hard as you do.",
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
-    copyright: "© 2025 Ledgr. All rights reserved.",
+    copyright: "© 2026 Ledgr. All rights reserved.",
   },
 };
 
@@ -348,7 +348,7 @@ const es: Translations = {
     tagline: "Contabilidad que trabaja tan duro como tú.",
     privacyPolicy: "Política de privacidad",
     termsOfService: "Términos de servicio",
-    copyright: "© 2025 Ledgr. Todos los derechos reservados.",
+    copyright: "© 2026 Ledgr. Todos los derechos reservados.",
   },
 };
 

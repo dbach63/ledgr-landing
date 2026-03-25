@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Sora } from "next/font/google";
 import { LanguageProvider } from "@/lib/LanguageContext";
+import HtmlLangSync from "@/components/HtmlLangSync";
 import "./globals.css";
 
 const inter = Inter({
@@ -46,7 +47,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${sora.variable}`}>
       <body className={inter.className}>
-          <LanguageProvider>{children}</LanguageProvider>
+          <LanguageProvider>
+            <HtmlLangSync />
+            {children}
+          </LanguageProvider>
         </body>
     </html>
   );
